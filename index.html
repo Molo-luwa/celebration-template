@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title"></title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;600&family=Playfair+Display:italic,wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="passwordScreen" class="password-screen">
+        <div class="lock-container">
+            <div class="lock-icon"><img src="images/zcX5gBbri.png" alt=""></div>
+            <h2>Enter to Celebrate</h2>
+            <p>This special message is locked with love 💕</p>
+            <input type="password" id="passwordInput" class="password-input" placeholder="Enter the password..." />
+            <button onclick="checkPassword()" class="submit-btn">Unlock My Love</button>
+            <div id="errorMessage" class="error-message">Wrong password, try again! 💔</div>
+        </div>
+    </div>
+
+    <div id="petals-container"></div>
+
+    <section class="hero">
+        <p style="letter-spacing: 5px; color: var(--accent-pink);" id="wish"></p>
+        <h1 id="name"></h1>
+        <p style="font-size: 1.2rem;" id="relation" ></p>
+        <div class="heart-float" style="font-size: 2rem; margin-top: 20px;">❤️</div>
+    </section>
+
+    <div class="content-wrapper">
+        
+        <div class="card visible">            
+            <div class="image-placeholder">
+                <div class="image-placeholder-text">
+                    <div><img id="pic1"></div>
+                    <div class="image-placeholder-label">Picture 1</div>
+                </div>
+            </div>            
+            <h2 id="header_one"></h2>
+            <div class="epistle-text">
+                <p id="paragraph_one"></p>
+                <div class="highlight-box" id="highlight"></div>
+                <p id="paragraph_two"></p>
+            </div>
+        </div>
+
+
+        <div class="card visible">
+            <h2 id="header_two"></h2>
+
+            <div class="epistle-text">
+                <p id="paragraph_three"></p>
+                <p id="paragraph_four"></p>
+            </div>
+            <div class="image-placeholder">
+                <div class="image-placeholder-text">
+                    <div><img id="pic2"></div>
+                    <div class="image-placeholder-label">Picture 2</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card visible">
+            <h2 id="header_three"></h2>
+            <div class="epistle-text">
+                <p id="paragraph_five"></p>
+                <p id="final_message"
+                    style="text-align: center; font-family: 'Dancing Script'; font-size: 2rem; color: var(--deep-rose);">
+                </p>
+            </div>
+            <div class="image-placeholder">
+                <div class="image-placeholder-text">
+                    <div><img id="pic3"></div>
+                    <div class="image-placeholder-label">Picture 3</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer id="footer">
+        
+    </footer>
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
