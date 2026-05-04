@@ -67,7 +67,7 @@ if (data.emojiEffects) {
     createPetals();
 }
 
-
+  document.title = data.title;
   document.getElementById("wish").innerHTML = data.wish;
   document.getElementById("name").innerHTML = data.name;
   document.getElementById("relation").innerHTML = data.relation;
