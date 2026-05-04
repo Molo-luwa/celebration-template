@@ -8,6 +8,9 @@ emojiEffects: false //set to true to enable falling emoji effects
 // (can be turned on/off without affecting the rest of the page)
 
 const data = {
+  // PAGE TITLE
+  title: "testing title testing title",
+
   // BASIC INFO
   wish: "CONGRATULATIONS",
   name: "Scott Chisom",
